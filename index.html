@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <div class="container1">
+        <h3>REGISTRATION-FORM</h3>
+        <form action="#" class="ID1">
+            <input type="text" placeholder="Enter your Name" id="Name" required>
+        </form>
+        <form action="#" class="ID1">
+            <input type="text" placeholder="Enter your Address" id="address" required>
+        </form>
+        <div class="column">
+            <input type="number" placeholder="Enter phone number" id="1Box2" required>
+            <input type="date" placeholder="Enter your date of birth" id="Box2" required>
+        </div>
+        <div class="gender-option">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required> Male
+            <input type="radio" id="female" name="gender" value="Female"> Female
+            <input type="radio" id="other" name="gender" value="Other"> Other
+            <br><br>
+        </div>
+        <div class="column2">
+            <input type="text" placeholder="Enter pancard number" id="Pancard" required>
+        </div>
+        
+        <div class="column2">
+            <input type="text" placeholder="Enter Adhar card number" id="Adhar" required>       
+        </div>
+        
+        <div class="group2-option">
+            <label for="Amputeetion">
+                <h3>If you have any Amputation:</h3>
+                <input type="radio" value="Yes" name="Amputeetion" id="amputationYes"> Yes
+                <br>
+                <input type="radio" value="No" name="Amputeetion" id="amputationNo"> No
+            </label>
+        </div>
+
+        <div class="marks">
+            <input type="number" name="marks1" id="marks1" placeholder="Enter your marks of subject 1">
+            <input type="number" name="marks2" id="marks2" placeholder="Enter your marks of subject 2">
+            <input type="number" name="marks3" id="marks3" placeholder="Enter your marks of subject 3">
+            <input type="number" name="marks4" id="marks4" placeholder="Enter your marks of subject 4">
+            <input type="number" name="marks5" id="marks5" placeholder="Enter your marks of subject 5">
+            <input type="number" name="marks6" id="marks6" placeholder="Enter your marks of subject 6">
+            
+            
+            <button type="#" class="ID3" id="calculate" onclick="marks()">calculate</button>
+
+            <button type="submit" class="ID3" id="submit" onclick="submit()">Submit</button>
+        </div>
+        
+
+    </div>
+</body>
+</html>
